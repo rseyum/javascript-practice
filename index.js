@@ -97,6 +97,21 @@ console.log(!(a == b));// false
 //var x = ++num //num = 20, get the value of x
 //var y = num++ //num = 10, get the value of y
 
+var num = 20;
+var x = ++num;//pre-increnent
+// num = num + 1;21
+// x = num;21
+console.log(x, num);//21 21
+
+
+var num = 10;
+var y = num++;//post-increment
+// y = num;//10
+// num = num + 1;//11
+console.log(y, num);//10 11
+
+num--;
+
 //(true == false) > 2
 
 //(num ** num_val + (90 + 9) / 90) ;// num = 20 and num_val = 30
@@ -138,11 +153,13 @@ console.log(!(a == b));// false
 //console.log(numVal);30
 
 //
-//var a = 40;
-//var b = a++;
-//b++;
-//console.log(a);40
-//console.log(b);41
+var a = 40;
+var b = a++;
+//b = a;//40
+// a = a+ 1;//41
+b++;//41
+console.log(a);//41
+console.log(b);//41
 
 //
 // var f = 50;
@@ -161,23 +178,28 @@ console.log(!(a == b));// false
 
 //
 //var num = 20;
-// num++;
-// var t = ++num;
-// num++;
-// --num
-// console.log(num, t);22 22
+// num++;21
+num=num+1;22
+// var t = ++num;23
+// num++;24
+// --num===23
+// console.log(num, t);23 22
 
 //
 //var num = 10;
 // --num;
+num=num-1
 // var y = ++num + 10;
+y=10+10
 // --y;
+y=y-1//19
 // console.log(y);19
 // console.log(num);10
 
 //
 //var num = 30;
 // ++num;
+num=num+1;
 // num++ - 10;
 // console.log(num);21
 
