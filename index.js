@@ -99,8 +99,8 @@ console.log(!(a == b));// false
 
 var num = 20;
 var x = ++num;//pre-increnent
-// num = num + 1;21
-// x = num;21
+num = num + 1;21
+x = num;21
 console.log(x, num);//21 21
 
 
